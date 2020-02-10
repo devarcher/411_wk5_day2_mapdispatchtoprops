@@ -7,6 +7,11 @@ const cars = (state = [], action) => {
   switch(action.type) {
     case 'ADD_CAR': 
       return [ ...state, action.value]
+
+    case 'REMOVE_CAR':
+      const newState = [...state]
+      const splicedState = newState.splice(action.value, 1)
+      return newState;
       
     default:
       return state;
