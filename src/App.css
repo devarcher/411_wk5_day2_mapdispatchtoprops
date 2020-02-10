@@ -34,15 +34,15 @@ ul {
 }
 
 .icon:hover {
-  cursor: pointer
+  cursor: pointer;
 }
 
 .text-gray {
-  color: gray
+  color: gray;
 }
 
 .text-red {
-  color: red
+  color: red;
 }
 
 .nav-list {
